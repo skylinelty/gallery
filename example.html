@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="">
+        <title>画廊</title>
+    </head>
+    <style>@import "example.css";</style>
+    <body >
+        <div class="wrap" id="wrap">
+            <div class="photo-container" id="/id/" >
+                <div class="photo-front photo-wrap"  id="{id}" onclick='turn(this)'>
+                    <div class="side side-front" >
+                        <img class="photo" src="{img}" alt="">
+                        <p class="caption">{caption}</p>
+                    </div>
+                    <div class="side side-back">
+                        <p class="desc">{desc}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="data.js"></script>
+        <script src="example.js"></script>
+    </body>
+</html>
